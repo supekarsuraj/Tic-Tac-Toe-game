@@ -1,0 +1,56 @@
+<!-- 
+    Author Pushkraj
+
+    changing
+-->
+<!DOCTYPE html>
+<html>
+    <!--start here-->
+
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Start</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="./CSS/players.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <script src="jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container__1" id="f1" name="f1">
+            <label for="player1" class="p1"> First Player Name :-</label><br>
+            <input type="text" id="player1" class="form-control in" value="player1" required maxlength="30"><br>
+
+            <div class="of">
+                <span id="req">*required</span>
+                <label for="c1">Plays First</label>
+                <input class="radio" type="radio" name="who_plays" id="c1" checked>
+            </div>
+            <label for="player2" class="p1"> Second Player Name :-</label><br>
+            <input type="text" id="player2" class="form-control" value="player2" required maxlength="30">
+            <div class="of">
+                <span id="req1">*required</span>
+                <label for="c2">Plays First</label>
+                <input class="radio" type="radio" name="who_plays" id="c2">
+            </div>
+            <span id="txt">Choose for player1</span>
+            <div class="btns">
+                <button onclick="set(this,'O');" class="btn btn-outline-light set" id="b1">O</button>
+                <button onclick="set(this,'X');" class="btn btn-outline-light set" id="b2">X</button>
+                <span id="req2">*required</span>
+            </div>
+            <br>
+            <a onclick="changeXX(this);" data-foo="X" id="doo" href="./HTML/xo.html">
+                <div class="btn btn-outline-dark strt">Start</div>
+            </a>
+        </div>
+        <script src="./JS/player.js"></script>
+    </body>
+
+</html>

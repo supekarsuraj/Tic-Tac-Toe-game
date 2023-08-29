@@ -1,0 +1,86 @@
+/* @import url('https://fonts.cdnfonts.com/css/battlestar');                */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.container__1{
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    position: absolute;
+    top: 12%;
+    left: 33%;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+     background: #1c92d2;  
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  
+    background: linear-gradient(to bottom, #f2fcfe, #1c92d2); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.in{
+    display: inline !important; 
+}
+.of{
+    margin: 5px;
+}
+.radio{
+    margin-top: 7px;
+    margin-left: 10px;
+    position: absolute;
+}
+.p1{
+    font-weight: normal ;
+}
+
+#txt{
+    font-weight: 500;
+    margin-left: 20px;
+}
+.btns{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.set{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 3px !important;  
+}
+.strt{
+     width: 123px;
+     margin-left:100px;
+}
+.set:focus{
+     background-color: #f2fcfe !important;
+     color: black;
+}
+#req{
+     float: left;
+     margin-right: 140px;
+     visibility: hidden;
+     color: red;
+}
+#req1{
+    float: left;
+    margin-right: 140px;
+    visibility: hidden;
+    color: red;
+}
+#req2{
+    float: left;
+    margin-right: 140px;
+    visibility: hidden;
+    color: red;
+}
+#doo{
+    margin-top: 10px;
+    position: absolute;
+}
